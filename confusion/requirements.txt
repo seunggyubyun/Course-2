@@ -1,0 +1,129 @@
+The form in the navbar should use the correct form and used the correct classes: navbar-form and navbar-right.
+
+The form contains two fields for the user to enter email and password
+
+5 pts
+Yes
+
+0 pts
+No
+The form includes a check box with the “Remember Me” text next to it
+
+5 pts
+Yes
+
+0 pts
+No
+The form contains a button with the “Sign In” lettering and should use the <button> tag and the btn class at least.
+
+5 pts
+Yes
+
+0 pts
+No
+The “Reserve Table” button is correctly included in the Jumbotron next to the restaurant logo. The button uses the <a> tag and btn, btn-block and btn-warning classes.
+
+5 pts
+Yes
+
+0 pts
+No
+The button is correctly included inside a div with the column classes div-xs-12 and div-sm-2.
+
+5 pts
+Yes
+
+0 pts
+No
+The button’s <a> tag contains a href pointing to the row containing the form for reserving the table.
+
+5 pts
+Yes
+
+0 pts
+No
+The reservation form contains six radio options from 1 to 6
+
+5 pts
+Yes
+
+0 pts
+No
+The form contains a date field and includes the glyphicon-calendar and is included inside a div that uses the has-feedback class.
+
+5 pts
+Yes
+
+0 pts
+No
+The form contains a time field and includes the glyphicon-time and is included inside a div that uses the has-feedback class.
+
+5 pts
+Yes
+
+0 pts
+No
+The form includes a submit button
+
+5 pts
+Yes
+
+0 pts
+No
+The new row contains an alert message with the correct classes applied: alert alert-warning alert-dismissible
+
+5 pts
+Yes
+
+0 pts
+No
+The alert contains a dismiss X button correctly included with the close class applied.
+
+5 pts
+Yes
+
+0 pts
+No
+The alert message contains the “call” word hyperlinked to the telephone number of the restaurant
+
+5 pts
+Yes
+
+0 pts
+No
+The media class is correctly applied to a div that encloses the content in the second column of the second row
+
+5 pts
+Yes
+
+0 pts
+No
+The media class is correctly applied to a div that encloses the entire content in the second column of the second row
+
+5 pts
+Yes
+
+0 pts
+No
+The media-body class is correctly applied to the div that encloses the description content including the media-heading class for the <h2> heading
+
+5 pts
+Yes
+
+0 pts
+No
+The image is correctly included in the div with media-right media-middle and img with media-object img-thumbnail classes.
+
+5 pts
+Yes
+
+0 pts
+No
+The image div is placed after the media-body div so that the image appears to the right in the content.
+
+5 pts
+Yes
+
+0 pts
+No
+The label class is correctly applied to display the “New” label in the content
