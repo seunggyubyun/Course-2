@@ -61,7 +61,7 @@
               <li><a href="#">Drinks</a></li>
               <li role="serparator" class="divider"></li>
               <li class="dropdown-header">Specials</li>
-              <li><a href="#">Lunch by</li>
+				<li><a href="#">Lunch by</a></li>
               <li><a href="#">Weekend specials</a></li>
             </ul>
           </li>
@@ -80,9 +80,9 @@
           </div>
           <div class="form-group">
             <p style="padding:0.5px;"></p>
-            <label style="color:white;"><input	type="checkbox">Remember	me</label>
+            <label style="color:white;"><input	type="checkbox">Remember me</label>
           </div>
-          <button	type="submit"	class="btn btn-info">Sign	in</button></form>
+          <button	type="submit"	class="btn btn-info">Sign	in</button>
         </form>
       </div>
       </div>
@@ -105,7 +105,9 @@
                 </div>
                 <div class="col-xs-12 col-sm-2">
                   <p style="padding:45px;"></p>
-                  <a	type="button"	class="btn btn-warning	btn-block" href="#reserve">Reserve table</a>
+                   <a type="button" class="btn btn-warning btn-block"
+                    data-toggle="tooltip" title="Or Call us at +852 12345678"
+					  data-placement="bottom" href="#reserveform"></a>
                 </div>
 
             </div>
@@ -251,7 +253,7 @@
               </button>
               <strong>Warning</strong>:Please
               <a href="tel:+85212345678" class="alert-link">
-              call</a/> us to reserve for more than six guests.
+              call</a> us to reserve for more than six guests.
             </div>
 
             </form>
@@ -312,6 +314,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
+	    <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+         });
+    </script>
+
+
+		
 </body>
 
 </html>
